@@ -6,7 +6,7 @@ import { storiesOf, addDecorator } from '@storybook/react-native';
 import { withBackgrounds } from '@storybook/addon-ondevice-backgrounds';
 import { withKnobs } from '@storybook/addon-ondevice-knobs';
 import { number, color, text, boolean, date } from '@storybook/addon-knobs';
-import { MyComponent } from '../../components/myComponent';
+import { MyComponent } from '../myComponent';
 
 addDecorator(withKnobs)
 addDecorator(withBackgrounds);
